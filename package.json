@@ -1,0 +1,16 @@
+{
+  "name": "fundamentos-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "purgecss --css css/custom.css --content index.html --output css/reducido.css"
+  },
+  "keywords": [],
+  "author": "mjesusoj",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "purgecss": "^4.0.3"
+  }
+}
